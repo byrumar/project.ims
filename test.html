@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize Gradient Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        /* Custom Gradient Background */
+        .gradient-bg {
+            background: linear-gradient(45deg, #ff4081, #ff9800);
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Custom Font and Styling */
+        .custom-text {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="pink darken-2">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Materialize</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Gradient -->
+    <div class="gradient-bg">
+        <h1 class="custom-text">Welcome to Materialize</h1>
+        <p>A simple example using Materialize CSS</p>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Material Design</span>
+                        <p>Materialize is a modern front-end framework based on Google's Material Design principles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Easy to Use</span>
+                        <p>It provides ready-to-use components like buttons, cards, and navbars with minimal coding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
