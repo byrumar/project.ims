@@ -1,176 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optium Fitness - Materialize</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Optium Fitness - Materialize</title>
 
-    <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css"/>
 
-    <!-- Materialize Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 
-    <style>
-        .header-bg {
-            background-color: #37474f;
-        }
-        .section-bg {
-            background-color: #ffecb3; /* Light Yellow */
-        }
-        .highlight {
-            background-color: #4db6ac;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .table-header {
-            background-color: #263238;
-            color: white;
-        }
-    </style>
+  <style>
+    .header-bg {
+      background-color: #37474f;
+    }
+    .section-bg {
+      background-color: #ffecb3; /* Light Yellow */
+    }
+    .highlight {
+      background-color: #4db6ac;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .table-header {
+      background-color: #263238;
+      color: white;
+    }
+  </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="header-bg">
-        <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">Optium Fitness</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="materialize.html">Materialize</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="section header-bg center-align">
-        <h1 class="white-text">Welcome to Optium Fitness</h1>
-        <p class="white-text">Where Strength Meets Discipline</p>
+  <!-- Navigation Bar -->
+  <nav class="header-bg">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Optium Fitness</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="materialize.html">Materialize</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <!-- About Section with Circular Image -->
-    <div class="container section">
-        <div class="row">
-            <div class="col s12 m6">
-                <h2>What is Optium Fitness?</h2>
-                <p>
-                    <strong>Optium Fitness</strong> is dedicated to helping you reach your fitness goals with personalized training, expert advice, and our top-tier facilities. Get to know our founder to the right in the About section!
-                </p>
-            </div>
-            <div class="col s12 m6 center-align">
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQE9vhcmFjJrbA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693808759493?e=1747872000&v=beta&t=W3-1gog2_ieH2GQpCoys6zwiugijKryqd0Tz5iul3ic" alt="Founder" class="circle responsive-img" width="200">
-            </div>
-        </div>
+  <!-- Hero Section -->
+  <div class="section header-bg center-align">
+    <h1 class="white-text">Welcome to Optium Fitness</h1>
+    <p class="white-text">Where Strength Meets Discipline</p>
+  </div>
+
+  <!-- About Section -->
+  <div class="container section">
+    <div class="row">
+      <div class="col s12 m6">
+        <h2>What is Optium Fitness?</h2>
+        <p>
+          <strong>Optium Fitness</strong> is dedicated to helping you reach your fitness goals with personalized training, expert advice, and our top-tier facilities. Get to know our founder to the right in the About section!
+        </p>
+      </div>
+      <div class="col s12 m6 center-align">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQE9vhcmFjJrbA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693808759493?e=1747872000&v=beta&t=W3-1gog2_ieH2GQpCoys6zwiugijKryqd0Tz5iul3ic" alt="Founder" class="circle responsive-img" width="200"/>
+      </div>
     </div>
+  </div>
 
-    <!-- Embedded Video Section -->
+  <!-- Embedded Video Section -->
+  <div class="container">
+    <h4 class="center-align">Need to Stay Motivated? Here is some advice.</h4>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vAvjQK6hnIk?si=ji8OvharJ2uLL87h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Training Programs -->
+  <div class="container">
+    <h4 class="center-align">Our Training Programs</h4>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://149874912.v2.pressablecdn.com/wp-content/uploads/2022/11/Strength-training-programs.jpg">
+            <span class="card-title">Strength Training</span>
+          </div>
+          <div class="card-content">
+            <p>Build muscle, improve endurance, and gain strength with expert coaching.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://www.yogahub.co.uk/wp-content/uploads/2021/07/Dru-Yoga-scaled.jpeg">
+            <span class="card-title">Yoga & Flexibility</span>
+          </div>
+          <div class="card-content">
+            <p>Enhance mobility, relieve stress, and improve posture with guided yoga sessions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://longevity.technology/lifestyle/wp-content/uploads/2023/05/person-training-boxing-in-the-gym-with-various-punching-bags.jpg">
+            <span class="card-title">Cardio Workouts</span>
+          </div>
+          <div class="card-content">
+            <p>Burn calories and boost your endurance with our intense cardio sessions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Class Schedule -->
+  <div class="container">
+    <h4 class="center-align">Weekly Class Schedule</h4>
+    <table class="highlight">
+      <thead class="table-header">
+        <tr>
+          <th>Day</th>
+          <th>Workout</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Reform Pilates</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Cardio</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Yoga and Strength</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Workout Preference -->
+  <div class="container section section-bg">
+    <h4 class="center-align">What's Your Favorite Workout? Let us know so we can cater to you!</h4>
+    <form>
+      <p>
+        <label>
+          <input name="workout" type="radio" value="Strength Training" onclick="displayWorkout()" />
+          <span>Yoga and Strength</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="workout" type="radio" value="Yoga & Flexibility" onclick="displayWorkout()" />
+          <span>Cardio</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input name="workout" type="radio" value="Cardio Workouts" onclick="displayWorkout()" />
+          <span>Reform Pilates</span>
+        </label>
+      </p>
+    </form>
+    <div id="workout-response" class="highlight"></div>
+  </div>
+
+  <!-- Email Subscription -->
+  <div class="container section">
+    <h4 class="center-align">Get Weekly Updates and Reminders to Stay Up to Date!</h4>
+    <form onsubmit="submitEmail(event)">
+      <div class="input-field">
+        <input id="email" type="email" required>
+        <label for="email">Email</label>
+      </div>
+      <button type="submit" class="btn waves-effect waves-light">Subscribe</button>
+    </form>
+    <div id="email-response" class="highlight"></div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Thank You!</h4>
+      <p id="modal-content-text"></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div class="container section">
+    <h4 class="center-align">Moments at Optium Fitness</h4>
+    <div class="carousel">
+      <a class="carousel-item" href="#1"><img src="https://vivacomyoga.com.br/wp-content/uploads/2015/07/hatha-yoga.jpg"></a>
+      <a class="carousel-item" href="#2"><img src="https://www.bootcamppilates.com/_webedit/cached-images/130.jpg"></a>
+      <a class="carousel-item" href="#3"><img src="https://complete-pilates.co.uk/wp-content/uploads/2018/10/why-women-need-strength-training-02.jpg"></a>
+      <a class="carousel-item" href="#4"><img src="https://www.atkinshealth.com.au/wp-content/uploads/2023/05/Strength-training-what-is-it-and-who-can-benefit.png"></a>
+    </div>
+  </div>
+
+  <!-- Collapsible -->
+  <div class="container section">
+    <h4 class="center-align">Frequently Asked Questions</h4>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">access_time</i>What are your hours?</div>
+        <div class="collapsible-body"><span>We’re open 24/7 every day, meaning no matter your schedule, you can train with us!</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">people</i>Are group classes costly?</div>
+        <div class="collapsible-body"><span>No!The cost of classes is mainly included in your membership. Classes cost between $10-$20 a class depending on the instructor and type.</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">fitness_center</i>Is personal training available 24/7 too?</div>
+        <div class="collapsible-body"><span>Unfortunately, person training is only offered between the hours 7am - 6pm. This allows our coaches to rest and have personal plans.</span></div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="container center-align">
+    <h4>Ready to Start?</h4>
+    <p>Join Optium Fitness today and take the first step towards a healthier you!</p>
+    <a href="contact.html" class="btn waves-effect waves-light">Join Now</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer header-bg">
     <div class="container">
-        <h4 class="center-align">Need to Stay Motivated? Here is some advice.</h4>
-        <div class="video-container">
-            <iframe width="853" height="480" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/vAvjQK6hnIk?si=ji8OvharJ2uLL87h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe>
+      <div class="row">
+        <div class="col s12 center-align">
+          <p class="white-text">&copy; 2025 Optium Fitness. All Rights Reserved.</p>
         </div>
+      </div>
     </div>
+  </footer>
 
-    <!-- Featured Training Programs -->
-    <div class="container">
-        <h4 class="center-align">Our Training Programs</h4>
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://149874912.v2.pressablecdn.com/wp-content/uploads/2022/11/Strength-training-programs.jpg">
-                        <span class="card-title">Strength Training</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Build muscle, improve endurance, and gain strength with expert coaching.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://www.yogahub.co.uk/wp-content/uploads/2021/07/Dru-Yoga-scaled.jpeg">
-                        <span class="card-title">Yoga & Flexibility</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Enhance mobility, relieve stress, and improve posture with guided yoga sessions.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://longevity.technology/lifestyle/wp-content/uploads/2023/05/person-training-boxing-in-the-gym-with-various-punching-bags.jpg">
-                        <span class="card-title">Cardio Workouts</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Burn calories and boost your endurance with out intense cardio sessions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  <!-- Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <!-- Weekly Class Schedule Table -->
-    <div class="container">
-        <h4 class="center-align">Weekly Class Schedule</h4>
-        <table class="highlight">
-            <thead class="table-header">
-                <tr>
-                    <th>Day</th>
-                    <th>Workout</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Monday</td>
-                    <td>Reform Pilates</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>Cardio</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>Yoga and Strength</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      M.Modal.init(document.querySelectorAll('.modal'));
+      M.Carousel.init(document.querySelectorAll('.carousel'));
+      M.Collapsible.init(document.querySelectorAll('.collapsible'));
+    });
 
-    <!-- Call to Action -->
-    <div class="container center-align">
-        <h4>Ready to Start?</h4>
-        <p>Join Optium Fitness today and take the first step towards a healthier you!</p>
-        <a href="contact.html" class="btn waves-effect waves-light">Join Now</a>
-    </div>
+    function displayWorkout() {
+      const selectedWorkout = document.querySelector('input[name="workout"]:checked').value;
+      document.getElementById('workout-response').innerText = `You selected: ${selectedWorkout}`;
+    }
 
-    <!-- Footer -->
-    <footer class="page-footer header-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 center-align">
-                    <p class="white-text">&copy; 2025 Optium Fitness. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    function submitEmail(event) {
+      event.preventDefault();
+      const email = document.getElementById('email').value;
+      document.getElementById('email-response').innerText = `Thanks! Updates will be sent to: ${email}`;
+      document.getElementById('email').value = '';
 
-    <!-- Materialize JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.materialboxed');
-            var instances = M.Materialbox.init(elems);
-        });
-    </script>
-
+      const modalText = document.getElementById('modal-content-text');
+      modalText.innerText = `Thanks for subscribing! You'll get weekly tips at: ${email}`;
+      const modal = M.Modal.getInstance(document.getElementById('modal1'));
+      modal.open();
+    }
+  </script>
 </body>
 </html>
