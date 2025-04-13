@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Optium Fitness - jQuery</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- jQuery Scripts -->
+  <script>
+    // Toggle fitness tips
+    $(document).ready(function(){
+      $("#toggleBtn").click(function(){
+        $(".fitness-tips").toggle();
+      });
+    });
+
+    // Hover effect for motivational quotes
+    $(document).ready(function(){
+      $(".quote-box").hover(function(){
+        $(this).css("background-color", "#eeeeee");
+      }, function(){
+        $(this).css("background-color", "#ffffff");
+      });
+    });
+
+    // Toggle Dark Mode
+    $(document).ready(function(){
+      $("#modeBtn").click(function(){
+        $("body").toggleClass("dark-mode");
+      });
+    });
+  </script>
+
+  <!-- Inline dark mode styles for beginner style -->
+  <style>
+    .dark-mode {
+      background-color: #12191d;
+      color: #f9f9f9;
+    }
+
+    .dark-mode header,
+    .dark-mode nav,
+    .dark-mode footer {
+      background-color: #263238;
+      color: white;
+    }
+
+    .dark-mode .quote-box {
+      background-color: #37474f;
+      color: #f9f9f9;
+    }
+
+    .section-box {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin: 15px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #37474f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #263238;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="header-bg">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Optium Fitness</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="materialize.html">Materialize</a></li>
+        <li><a href="jquery.html">jQuery</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1 id="welcome-msg">Explore Optium Fitness Features</h1>
+    <h2>Take a look at some addition resources!</h2>
+  </header>
+
+  <!-- Section 1: Fitness Tips -->
+  <section class="section-box">
+    <h2>Top Fitness Tips</h2>
+    <button id="toggleBtn">Show/Hide Tips</button>
+    <ul class="fitness-tips" style="display: none; margin-top: 10px;">
+      <li>Warm up before every session. Make sure you stretch so you can tackle your workout safely!</li>
+      <li>Track your meals and hydration so that you can determine habits and start new ones!</li>
+      <li>Focusing on form is more important that weight. Ego lifting gets you nowhere.</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- Section 2: Hover Quotes -->
+  <section class="section-box">
+    <h2>Discover Our Motivational Quotes</h2>
+    <p class="quote-box" style="border: 1px solid #37474f; padding: 15px;">“The hardest part is over. You showed up.” —Jess Sims
+    </p>
+    <p class="quote-box" style="border: 1px solid #37474f; padding: 15px;">“All growth starts at the end of your comfort zone.” —Tony Robbins</p>
+  </section>
+
+  <hr>
+
+  <!-- Section 3: Interactive - Toggle Gym Mode -->
+  <section class="section-box">
+    <h2>Choose Your Gym Mode</h2>
+    <p>Click below to switch between Light and Dark Mode to add your own personalization.</p>
+    <button id="modeBtn">Toggle Dark Mode</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Optium Fitness. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
